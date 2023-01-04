@@ -5,22 +5,15 @@ let saveEL = document.getElementById("save-el")
 let count = 0
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
   
 }
 
 function save() {
     let countStr = count + " - "
-    console.log(incremtal)
-    saveEL.innerText += countStr
-    console.log(count)
+    
+    saveEL.textContent += countStr
+    countEl.textContent = 0
+    count = 0
 }
 
-// let name = "Yogita"
-// let greeting = "Welcome back "
-// welcomeEL.innerText =  greeting + name
-
-// welcomeEL.innerText += "🫶"
-
-let incremtal = count + " "+ "-"
-    console.log(incremtal)
